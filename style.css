@@ -1,0 +1,25 @@
+body{
+    background-color: aquamarine;
+}
+a{
+    color: violet;
+    cursor: copy;
+}
+table{
+    border: 2px solid red;
+}
+th{
+    border: 2px solid red;
+}
+td{
+    border: 2px solid red;
+}
+form{
+    border: 2px solid hotpink;
+}
+div{
+    border: 2px solid rgb(21, 103, 5);
+}
+#one{
+    background-color: yellow;
+}
