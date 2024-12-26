@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1><a href="index.html">Home</a></h1>
+    <h3>This is a form: </h3>
+    <form action="post">
+        <div>
+            <label for="username">User name:</label>
+            <input type="text" name="uername" id="username" placeholder="Enter your username" >
+        </div>
+        <div>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <label for="comments">Comments:</label>
+            <textarea name="comments" id="comments" cols="40" rows="5"></textarea>
+        </div>
+        <div>
+            <label for="age">Select your age:</label>
+            <select name="Age" id="age">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+            </select>
+        </div>
+
+        <div id="one" >
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit animi, velit ea laudantium enim sint at eveniet neque quia. Veniam commodi quae et dolor iure sunt obcaecati aut nesciunt a!</p>
+        </div>
+        <div id="one">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit animi, velit ea laudantium enim sint at eveniet neque quia. Veniam commodi quae et dolor iure sunt obcaecati aut neciunt a!</p>
+        </div>
+
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
